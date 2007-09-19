@@ -1,0 +1,314 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Portfolio
+
+One Three Studio
+www.onethreestudio.com
+2008.01.21.
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* ----- RE-SET ----- */
+/*
+html, body, form, input, select, fieldset {font-size: 11px; font-family: Tahoma, Verdana, Arial; color: #000000; }
+body {background-color: #000000; }
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, li, dl, address {margin: 0px; padding: 0px; }
+h1, h2, h3, h4, h5, h6, pre, code {font-size: 10px; }
+ul, ol {list-style: none; }
+form label {cursor: pointer; }
+address {font-style: normal; }
+:link,:visited { text-decoration: none; }
+a img,:link img,:visited img {border: none; }
+fieldset {border: none; }
+div.clear, span.clear {clear: both; font-size: 0px; }
+*/
+
+/* ----- global ----- */
+body {
+text-align: center;
+background-image: url("images/spacer.png");
+background-repeat: repeat;
+
+margin: 0px;
+}
+#container {
+width: 800px;/*798*/
+margin: 0px auto 20px auto;
+padding: 0px;
+text-align: left;
+}
+
+/* ----- header ----- */
+#header {
+height: 360px;/*351*/
+padding: 0px 1px 35px 1px;
+margin: 0px;
+}
+#logo {
+height: 243px;
+margin: 0px;
+padding: 0px;
+background-image: url("images/logo.png");
+background-repeat: no-repeat;
+background-position: bottom center;
+}
+#welcome-logo {
+height: 108px;
+margin: 0px;
+padding: 0px;
+background-image: url("images/welcome.png");
+background-repeat: no-repeat;
+background-position: top center;
+}
+
+/* ----- content ----- */
+#content {
+margin: 0px;
+padding: 0px 25px 0px 25px;/*mindket oldalon egyenletes*/
+}
+#info {
+margin: 0px;
+padding: 0px;
+}
+#texts {
+width: 50%;
+float: left;
+margin: 0px;
+padding: 0px;
+}
+.text-title {
+color: #d7d7d7;
+font-family: Arial, Verdana, Serif;
+font-size: 15px;
+height: 20px;/*14*/
+margin: 0px 0px 25px 0px;
+padding: 0px;
+font-weight: bold;
+background-image: url("images/underline.png");
+background-repeat: repeat-x;
+background-position: bottom left;
+}
+.text-content {
+color: #a7a7a7;
+font-family: Arial, Verdana, Serif;
+font-size: 12px;
+margin: 0px 0px 25px 22px;
+padding: 0px 0px 0px 12px;
+background-image: url("images/border.png");
+background-repeat: repeat-y;
+background-position: top left;
+}
+.text-content a:link {
+color: #94de22;
+text-decoration: none;
+}
+.text-content a:visited {
+color: #94de22;
+text-decoration: none;
+}
+.text-content a:hover {
+color: #a7a7a7;
+text-decoration: underline;
+}
+.pic {
+float: right;
+text-align: right;
+margin: 0px;
+padding: 0px;
+}
+
+.pic a img {
+border: none;
+}
+
+/* ----- works ----- */
+#works {
+clear: both;
+margin: 0px;
+padding: 30px 0px 30px 0px;
+}
+#works-title {
+height: 20px;/*14*/
+margin: 0px 0px 30px 0px;
+padding: 0px;
+background-image: url("images/underline.png");
+background-repeat: repeat-x;
+background-position: bottom left;
+}
+#works-content {
+text-align: center;
+margin: 0px;
+padding: 0px 18px 0px 18px;
+}
+.work {
+text-align: left;
+margin: 20px 0px 20px 0px;
+padding: 0px 0px 0px 12px;
+background-image: url("images/border.png");
+background-repeat: repeat-y;
+background-position: top left;
+color: #a7a7a7;
+font-family: Arial, Verdana, Serif;
+font-size: 12px;
+}
+.work a:link {
+color: #94de22;
+text-decoration: none;
+}
+.work a:visited {
+color: #94de22;
+text-decoration: none;
+}
+.work a:hover {
+color: #a7a7a7;
+text-decoration: underline;
+}
+.work a:link img {
+border: 1px dashed #232323;
+}
+.work a:visited img {
+border: 1px dashed #232323;
+}
+.work a:hover img {
+border: 1px dashed #94de22;
+}
+
+/* ----- footer ----- */
+#footer {
+background-image: url("images/underline.png");
+background-repeat: repeat-x;
+background-position: top left;
+color: #a7a7a7;
+font-family: Arial, Verdana, Serif;
+font-size: 12px;
+text-align: center;
+margin: 0px;
+padding: 40px 120px 12px 120px;
+}
+#footer a:link {
+color: #a7a7a7;
+text-decoration: none;
+}
+#footer a:visited {
+color: #a7a7a7;
+text-decoration: none;
+}
+#footer a:hover {
+color: #94de22;
+text-decoration: none;
+}
+#foot-border {
+width: 100%;
+height: 8px;
+background-image: url("images/border.png");
+background-repeat: repeat-x;
+background-position: center center;
+}
+
+/* ----- lightbox ----- */
+#lightbox {
+position: absolute;
+left: 0;
+width: 100%;
+z-index: 100;
+text-align: center;
+line-height: 0;
+}
+#lightbox a img {
+border: none;
+}
+#outerImageContainer {
+position: relative;
+background-color: #fff;
+width: 250px;
+height: 250px;
+margin: 0 auto;
+}
+#imageContainer {
+padding: 10px;
+}
+#loading {
+position: absolute;
+top: 40%;
+left: 0%;
+height: 25%;
+width: 100%;
+text-align: center;
+line-height: 0;
+}
+#hoverNav {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: 10;
+}
+#imageContainer>#hoverNav {
+left: 0;
+}
+#hoverNav a{
+outline: none;
+}
+#prevLink, #nextLink {
+width: 49%;
+height: 100%;
+background: transparent url(../images/blank.gif) no-repeat; /* Trick IE into showing hover */
+display: block;
+}
+#prevLink {
+left: 0;
+float: left;
+}
+#nextLink {
+right: 0;
+float: right;
+}
+#prevLink:hover, #prevLink:visited:hover {
+background: url(../images/prev.gif) left 15% no-repeat;
+}
+#nextLink:hover, #nextLink:visited:hover {
+background: url(../images/next.gif) right 15% no-repeat;
+}
+#imageDataContainer {
+font: 10px Verdana, Helvetica, sans-serif;
+background-color: #fff;
+margin: 0 auto;
+line-height: 1.4em;
+overflow: auto;
+width: 100%	
+}
+#imageData {
+padding:0 10px;
+color: #666;
+}
+#imageData #imageDetails {
+width: 70%;
+float: left;
+text-align: left;
+}	
+#imageData #caption {
+font-weight: bold;
+}
+#imageData #numberDisplay {
+display: block;
+clear: left;
+padding-bottom: 1.0em;
+}			
+#imageData #bottomNavClose {
+width: 66px;
+float: right;
+padding-bottom: 0.7em;
+}	
+#overlay {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 90;
+width: 100%;
+height: 500px;
+background-color: #000;
+}
+
+/* "A szemétõl a szájig, a szemétõl a szájig,
+    Elmegy egy kis hajó,
+    Tele van halottal, pénzzel meg kalózzal,
+    Minden kalózhajó..." */

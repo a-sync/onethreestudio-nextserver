@@ -1,0 +1,139 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Portfolio
+
+One Three Studio Alt.
+www.onethreestudio.com
+2008.08.08.
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* global */
+html, body {
+  background-image: url("images/spacer.png");
+  background-repeat: repeat;
+  background-color: #232323;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Tahoma, serif;
+}
+
+a:link {
+  color: #eee;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: system, Tahoma, serif;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #eee;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #eee;
+  text-decoration: none;
+}
+
+/* logo */
+#logo {
+  width: 800px;
+  height: 243px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+/* main content */
+#container {
+  margin: 0 auto;
+  padding: 9px 0 0 0;
+  text-align: center;
+  width: 700px;
+  background-image: url("images/border.png");
+  background-repeat: repeat-x;
+  background-position: top center;
+}
+
+/* footer */
+#footer {
+  width: 500px;
+  background-image: url("images/border.png");
+  background-repeat: repeat-x;
+  background-position: top left;
+  color: #a7a7a7;
+  text-align: center;
+  margin: 1px auto 0 auto;
+  padding: 40px 100px 12px 100px;
+}
+
+#footer a:link {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+
+#footer a:visited {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #94de22;
+  text-decoration: none;
+}
+
+#foot-border {
+  height: 8px;
+  margin: 0 auto;
+  padding: 0;
+  background-image: url("images/border.png");
+  background-repeat: repeat-x;
+  background-position: center center;
+}
+
+/* cmd */
+#t {
+  width: 690px;
+  height: 378px;
+  background-color: #000;
+  color: #eee;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
+  font-family: system, Tahoma, serif;
+  line-height: 14px;
+  border: none;
+  margin: 0 auto;
+  padding: 5px 5px 0 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  cursor: default;
+}
+
+#i {
+  width: 680px;
+  height: 18px;
+  background-color: #000;
+  color: #eee;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
+  font-family: system, Tahoma, serif;
+  border: none;
+  margin: -1px auto 0 auto;
+  padding: 0 5px 0 15px;
+  background-image: url("images/arrow.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  cursor: default;
+}
+
+
+/* "Vitorlázz némán át a réteken,
+    Túl a sóson túl az édesen,
+    Annyira kemény, annyira látványos,
+    Csatáink voltak, hát hogy lesz most..." */
