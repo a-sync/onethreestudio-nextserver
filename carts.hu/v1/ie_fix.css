@@ -1,0 +1,7 @@
+body {
+behavior: url("csshover2.htc");
+}
+
+#logo, .menu a img {
+behavior: url("iepngfix.htc");
+}

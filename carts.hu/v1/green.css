@@ -1,0 +1,30 @@
+@import url("default.css");
+
+#container {
+background-image: url('images/header_zold.png');
+}
+
+#hbox_bal_head {
+background-image: url('images/hirbox_zold.png');
+}
+
+#ugras {
+background-image: url('images/ugras_zold.png');
+}
+
+.esgomb_sel {
+background-image: url('images/esem_zold.png');
+}
+
+.esgomb:hover {
+color: #7cd434;
+}
+
+#top-footer-container {
+background-image: url('images/hirbox_zold.png');
+}
+
+a:hover {
+color: #7cd434;
+text-decoration: none;
+}

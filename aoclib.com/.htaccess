@@ -1,0 +1,58 @@
+Options +FollowSymLinks
+RewriteEngine On
+#RewriteRule ^cat/([0-9]) http://akashi.hu/index.php?category=$1 [L,R=301]
+
+RewriteRule ^article/(.*) http://akashi.hu/article.php?$1 [R=301,L]
+RewriteRule ^category/(.*) http://akashi.hu/category.php?$1 [R=301,L]
+RewriteRule ^search/(.*) http://akashi.hu/search.php?$1 [R=301,L]
+
+#ezeketa fájlokat kulon mappaba rakva:
+#RewriteRule ^article/(.*) http://akashi.hu/article/?$1 [R=301,L]
+#RewriteRule ^category/(.*) http://akashi.hu/category/?$1 [R=301,L]
+#RewriteRule ^search/(.*) http://akashi.hu/search/?$1 [R=301,L]
+
+#vagy akár:
+#RewriteRule ^article/(.*) http://akashi.hu/article?$1 [R=301,L]
+#RewriteRule ^category/(.*) http://akashi.hu/category?$1 [R=301,L]
+#RewriteRule ^search/(.*) http://akashi.hu/search?$1 [R=301,L]
+
+
+
+
+
+#misc
+
+#RewriteRule ^article/(.*) http://akashi.hu/article.php?n=$1 [R=301,L]
+#RewriteRule ^category/(.*) http://akashi.hu/category.php?n=$1 [R=301,L]
+#RewriteRule ^search/(.*) http://akashi.hu/search.php?n=$1 [R=301,L]
+
+#RewriteRule ^test/(.*)$ http://akashi.hu/eredmeny/%{REQUEST_URI} [R=301,L]
+
+#RewriteCond %{HTTP_HOST} !^akashi\.hi/\?$ [NC]
+#RewriteRule ^(.*)$ http://akashi.hu/?$1 [R=301,L]
+
+
+#RewriteCond %{REQUEST_URI} ^/(stats/|missing\.html|failed_auth\.html|error/).* [NC]
+#RewriteRule .* - [L]
+
+#RewriteCond %{ENV:REDIRECT_STATUS} 200
+#RewriteRule .* - [L]
+
+
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^cat/(.*)$ /exec/$1
+
+
+#RewriteCond %{THE_REQUEST} ^GET\ /.*\;.*\ HTTP/
+#RewriteCond %{QUERY_STRING} !^$
+#RewriteRule .* http://akashi.hu%{REQUEST_URI}? [R=301,L]
+
+#RedirectMatch 301 ^/cat/(.*)$  http://akashi.hu/index.php?category=$1
+
+
+#Options +FollowSymLinks
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^/cat/(.*)$  http://akashi.hu/index.php?category=$1 [L,NC,QSA]
+

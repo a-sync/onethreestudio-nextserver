@@ -1,0 +1,60 @@
+* {
+zoom: 1;
+}
+
+body {
+behavior: url("csshover2.htc");
+}
+
+#container{
+width: expression(document.body.clientWidth < 980 ? "980px" : "auto");
+/* még jóljöhet
+<img src="images/transparent.gif" width="980" height="1">
+*/
+}
+
+.va_cell {
+	display: inline-block;
+}
+
+.va_ie {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+#article_quick_infos {
+float: left;
+
+padding: 0 12px;
+}
+
+.quick_info {
+clear: both;
+
+}
+
+.quick_info_title {
+width: 120px;
+float: left;
+
+padding: 5px 15px 5px 0;
+}
+
+.quick_info_text {
+width: auto;
+float: left;
+
+padding: 5px 0 5px 25px;
+}
+
+.screenshot img {
+opacity: 0.75;
+filter: alpha(opacity=75);
+}
+
+.screenshot:hover img {
+opacity: 1.00;
+filter: alpha(opacity=100);
+}

@@ -1,0 +1,30 @@
+@import url("default.css");
+
+#container {
+background-image: url('images/header_piros.png');
+}
+
+#hbox_bal_head {
+background-image: url('images/hirbox_piros.png');
+}
+
+#ugras {
+background-image: url('images/ugras_piros.png');
+}
+
+.esgomb_sel {
+background-image: url('images/esem_piros.png');
+}
+
+.esgomb:hover {
+color: #cf0a14;
+}
+
+#top-footer-container {
+background-image: url('images/hirbox_piros.png');
+}
+
+a:hover {
+color: #cf0a14;
+text-decoration: none;
+}

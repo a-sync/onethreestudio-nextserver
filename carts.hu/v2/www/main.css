@@ -1,0 +1,581 @@
+/* carts.hu
+ * alap stylesheet
+ * 
+ */
+
+/* master reset */
+* {/*width:auto;height:auto;*/margin:0;padding:0;background-repeat:no-repeat;background-position:center center;list-style:outside none none;}
+
+/* main */
+html, body {
+text-align: center;
+background-image: url('images/head_bg.jpg');
+background-repeat: repeat-x;
+background-position: top center;
+background-color: #1f2326;
+
+font-family: Corbel, Arial, Verdana, sans-serif;
+font-family: Arial, Verdana, sans-serif;
+font-size: 14px;
+color: white;
+}
+
+#container_frame {
+/*width: 100%;
+margin: 0;*/
+}
+
+#container {
+width: 940px;
+margin: 0 auto;
+text-align: left;
+}
+
+a:link, a:visited {
+color: white;
+text-decoration: underline;
+}
+a:hover {
+color: #666666;
+text-decoration: none;
+}
+a img {
+border: none;
+}
+
+/* head */
+#head {
+clear: both;
+width: 940px;
+height: 115px;
+background-image: url('images/potty.jpg');
+background-position: bottom right;
+}
+
+#head_logo {
+float: left;
+width: 330px;
+height: 95px;
+display: block;
+background-image: url('images/logo.png');
+background-position: bottom center;
+}
+
+#head_menu {
+float: left;
+width: 610px;
+height: 100px;
+}
+
+#menu_ul {
+text-align: right;
+margin: 50px 40px 0 0;
+}
+
+#menu_ul li {
+display: inline;
+padding: 0 10px 0 0;
+}
+
+#menu_ul li a img {
+
+}
+
+/* body */
+#body {
+width: 920px;
+height: auto;
+
+padding: 10px 20px 0px 0;
+}
+
+#side_panel {
+background-color: #0e0e10;
+padding: 10px;
+}
+
+#side_panel h3 {
+padding: 0 0 5px 0;
+text-align: left;
+}
+
+/* foot */
+#foot {
+clear: both;
+width: 900px;
+padding: 10px 40px 20px 0;
+background-position: top right;
+}
+
+#info {
+width: 700px;
+float: left;
+border-top: 7px double gray;
+padding: 10px 0 0 0;
+}
+
+#info_auto {
+width: 100%;
+float: left;
+border-top: 7px double gray;
+padding: 10px 0 0 0;
+}
+
+.other_sites {
+color: #666666;
+line-height: 22px;
+}
+
+.other_sites a:link, .other_sites a:visited {
+color: #666666;
+}
+
+.other_sites a:hover {
+
+}
+
+#hirlevel {
+border-top: 7px double gray;
+width: 200px;
+float: left;
+text-align: right;
+padding: 10px 0 0 0;
+}
+
+.hirlevel_input {
+width: 170px;
+height: 16px;
+text-align: left;
+padding: 1px 2px 1px 4px;
+margin: 0 0 5px 0;
+border: 2px inset #666666;
+color: #666666;
+}
+
+.hirlevel_submit {
+width: 82px;
+height: 24px;
+background-color: transparent;
+background-image: url('images/submit_feliratkozas.jpg');
+cursor: pointer;
+border: none;
+margin: 5px 0 0 0;
+}
+
+#footer {
+width: 900px;
+clear: both;
+color: #666666;
+line-height: 22px;
+text-align: center;
+padding: 20px 0 0 0;
+}
+
+/* főoldal */
+#lapozo {
+clear: both;
+width: 900px;
+height: 40px;
+padding: 5px 0 5px 0;
+}
+
+#elozo {
+display: block;
+float: left;
+width: 125px;
+height: 35px;
+background-image: url('images/elozo.jpg');
+cursor: pointer;
+}
+#elozo:hover {
+background-image: url('images/elozo_hover.jpg');
+}
+
+#kovetkezo {
+display: block;
+float: left;
+width: 125px;
+height: 35px;
+background-image: url('images/kovetkezo.jpg');
+cursor: pointer;
+}
+#kovetkezo:hover {
+background-image: url('images/kovetkezo_hover.jpg');
+}
+
+#szamok {
+float: left;
+width: 590px;
+/*width: auto;*/
+
+font-size: 18px;
+/*font-family: Arial, Verdana, sans-serif;*/
+text-align: center;
+
+padding: 0 28px 0 32px;
+}
+
+#szamok a:link, #szamok a:visited, #szamok a:hover {
+text-decoration: none;
+}
+#szamok a:hover, #szamok a.szam_aktiv:link, #szamok a.szam_aktiv:visited  {
+color: black;
+text-decoration: none;
+}
+
+.szam {
+display: block;
+float: left;
+width: 36px;
+height: 27px;
+cursor: pointer;
+padding: 8px 0 0 0;
+margin: 0 3px 0 0;
+}
+.szam:hover {
+background-image: url('images/aktualis.jpg');
+color: black;
+}
+
+.szam_aktiv {
+display: block;
+float: left;
+width: 36px;
+height: 27px;
+cursor: pointer;
+padding: 8px 0 0 0;
+margin: 0 3px 0 0;
+
+background-image: url('images/aktualis.jpg');
+color: black;
+}
+
+#tartalom {
+width: 900px;
+padding: 10px 0 10px 0;
+}
+
+/* szolgáltatások */
+#szolgaltatasok_bal {
+float: left;
+width: 620px;
+padding: 0 0 30px 0;
+
+}
+
+.szolg_blokk {
+width: 620px;
+padding: 0 0 30px 0;
+}
+
+.szolg_cim {
+/*width: 270px;
+height: 42px;
+background-image: url('images/cim_bg.jpg');*/
+font-family: Corbel, Arial, Verdana, sans-serif;
+font-size: 24px;
+
+color: #e9e9e9;
+padding: 4px 0 4px 10px;
+background-color: black;
+}
+
+.szolg_szoveg {
+padding: 10px 0 0 10px;
+line-height: 17px;
+}
+
+.szolg_kep {
+margin: 0 0 4px 10px;
+border: 3px solid #0f1113;
+}
+
+
+#szolgaltatasok_jobb {
+float: left;
+width: 260px;
+padding: 10px 0 30px 20px;
+
+font-size: 12px;
+}
+
+#arlista {
+display: block;
+width: 250px;
+width: auto;
+
+height: 48px;
+background-image: url('images/icon_download.jpg');
+background-position: center left;
+
+font-family: Corbel, Arial, Verdana, sans-serif;
+font-size: 30px;
+padding: 2px 0 0 50px;
+
+}
+
+#twitter_box {
+width: 260px;
+width: auto;
+}
+
+#twitter_head {
+display: block;
+width: 260px;
+width: auto;
+height: 45px;
+background-image: url('images/icon_twitter.jpg');
+background-position: center left;
+
+font-family: Corbel, Arial, Verdana, sans-serif;
+font-size: 30px;
+padding: 5px 0 0 50px;
+margin: 10px 0 0 0;
+text-decoration: none;
+}
+
+.twitter_msg {
+width: 260px;
+width: auto;
+background-color: #101113;
+
+padding: 7px 9px 7px 9px;
+margin: 10px 0 2px 0;
+}
+
+#hirlevel_head {
+width: 260px;
+width: auto;
+height: 45px;
+background-image: url('images/icon_hirlevel.jpg');
+background-position: center left;
+
+font-family: Corbel, Arial, Verdana, sans-serif;
+font-size: 30px;
+padding: 5px 0 0 60px;
+margin: 10px 0 0 0;
+}
+
+#hirlevel_jobb {
+width: 250px;
+padding: 0 0 0 10px;
+}
+
+/* referenciák */
+#referenciak {
+border: 3px solid #0f1113;
+width: 900px;
+}
+
+#referenciak img {
+width: 150px;
+border: none;
+min-height: 150px;
+}
+
+.kep_sor {
+height: 150px;
+overflow: hidden;
+}
+
+/* portfólió */
+#portfolio_title {
+width: 270px;
+height: 42px;
+background-image: url('images/cim_bg.jpg');
+font-family: Corbel, Arial, Verdana, sans-serif;
+font-size: 30px;
+
+color: #090909;
+padding: 8px 0 0 10px;
+}
+
+#kategoriak {
+float: left;
+width: 900px;
+padding: 10px 0 0 25px;
+}
+
+.kategoria {
+float: left;
+background-color: #101113;
+padding: 5px 15px 5px 15px;
+font-size: 16px;
+margin: 5px 10px 5px 0;
+white-space: nowrap;
+}
+
+.kategoria a:link, .kategoria a:visited {
+text-decoration: none;
+}
+
+#kepek {
+float: left;
+padding: 5px 0 20px 0;
+}
+
+.gal_sor {
+/*clear: both;*/
+float: left;
+}
+
+.kep {
+float: left;
+width: 180px;
+height: 180px;
+height: auto;
+text-align: center;
+padding: 10px 5px 15px 5px;
+overflow: hidden;
+margin: 10px 10px 10px 10px;
+background-color: #0f1113;
+}
+
+.kep_cim {
+font-size: 16px;
+margin: 0 12px;
+/*background-color: #0f1113;
+border: 3px solid #0f1113;*/
+padding: 0 0 5px 0;
+}
+
+.kep img {
+/*border: 3px solid #0f1113;*/
+border: none;
+max-width: 150px;
+}
+
+.kep a {
+text-decoration: none;
+}
+
+/* extrak */
+#extrak_title {
+width: 270px;
+height: 42px;
+background-image: url('images/cim_bg.jpg');
+font-family: Corbel, Arial, Verdana, sans-serif;
+font-size: 30px;
+
+color: #090909;
+padding: 8px 0 0 10px;
+}
+
+.extrak_blokk {
+padding: 15px 0 20px 0;
+}
+
+.extrak_cim {
+background-color: #101113;
+font-size: 26px;
+
+padding: 5px 10px 5px 10px;
+}
+
+.extrak_datum {
+color: gray;
+text-align: right;
+padding: 8px 0 0 0;
+}
+
+
+.extrak_szoveg {
+padding: 15px 5px 10px 5px;
+clear: both;
+}
+
+/* kapcsolat */
+#kapcsolat_title {
+/*width: 270px;
+height: 42px;
+background-image: url('images/cim_bg.jpg');
+font-family: Corbel, Arial, Verdana, sans-serif;
+font-size: 30px;
+
+color: #090909;
+padding: 8px 0 0 10px;
+*/
+font-family: Corbel, Arial, Verdana, sans-serif;
+font-size: 24px;
+
+color: #e9e9e9;
+padding: 4px 0 4px 10px;
+background-color: black;
+}
+
+#kapcsolat_bal {
+float: left;
+width: 435px;
+
+padding: 15px 50px 40px 15px;
+}
+
+.kapcsolat_info {
+line-height: 17px;
+}
+
+#uzenetkuldo_head {
+font-size: 24px;
+padding: 35px 0 20px 0;
+}
+
+#uzenetkuldo {
+width: 320px;
+/*text-align: right;*/
+}
+
+.uzenetkuldo_input {
+width: 170px;
+height: 16px;
+text-align: left;
+padding: 1px 2px 1px 4px;
+margin: 0 0 5px 0;
+border: 2px inset #666666;
+color: #666666;
+}
+
+.uzenetkuldo_textarea {
+width: 300px;
+height: 160px;
+text-align: left;
+padding: 1px 2px 1px 4px;
+margin: 0 0 5px 0;
+border: 2px inset #666666;
+color: #666666;
+font-family: Arial, Verdana, sans-serif;
+}
+
+.uzenetkuldo_submit {
+width: 82px;
+height: 24px;
+background-color: transparent;
+background-image: url('images/submit_kuldes.jpg');
+cursor: pointer;
+border: none;
+margin: 5px 0 0 225px;
+}
+
+#kapcsolat_jobb {
+float: left;
+width: 340px;
+padding: 15px 0 40px 60px;
+}
+
+#kapcsolat_ceg {
+font-size: 24px;
+}
+
+#kapcsolat_info {
+font-size: 15px;
+padding: 30px 2px 0 2px;
+line-height: 22px;
+}
+
+
+
+
+
+
+
+
+/* EOF */

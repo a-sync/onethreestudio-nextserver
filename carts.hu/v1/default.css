@@ -1,0 +1,637 @@
+/*
+www.carts.hu
+
+www.onethreestudio.com
+*/
+
+html, body {
+color: #000;
+font-size: 14px;
+font-family: Helvetica, Verdana, Arial, Tahoma;
+background-color: #FFF;
+
+text-align: center;
+margin: 0;
+padding: 0;
+
+	background-image: url("images/footer_bg.png");
+	background-position: top center;
+}
+
+#container {
+width: auto;
+height: auto;
+text-align: center;
+
+padding: 0;
+margin: 0;
+
+background-color: #fff;
+
+/*background-image: url("images/header_kek.png");*/
+background-position: top center;
+background-repeat: repeat-x;
+}
+
+img {
+margin: 0;
+padding: 0;
+border: none;
+}
+
+a:link, a:visited {
+color: #000;
+text-decoration: none;
+font-family: Verdana, Arial, serif;
+font-size: 14px;
+font-style: italic;
+}
+a:hover {
+color: #2e79e0;
+text-decoration: none;
+}
+
+/* --- HEADER --- */
+#header-container {
+width: 960px;
+height: 115px;
+
+padding: 0;
+margin: 0 auto;
+}
+
+#logo {
+float: left;
+
+width: 400px;
+height: 50px;
+
+background-image: url("images/logo.png");
+background-position: center left;
+background-repeat: no-repeat;
+
+margin: 40px 0 0 0;
+padding: 0;
+}
+
+#menu {
+float: left;
+height: 30px;
+
+margin: 84px 0 0 200px;
+padding: 0;
+
+text-align: right;
+}
+
+.menu {
+color: #ffffff;
+font-family: Arial, Verdana, serif;
+font-size: 17px;
+font-weight: bold;
+text-align: center;
+
+float: left;
+width: 88px;
+height: 30px;
+
+background-image: none;
+
+margin: 0;
+padding: 0;
+}
+
+.menu:hover {
+background-image: url("images/menu_bg.png");
+background-position: center center;
+background-repeat: repeat-x;
+}
+
+/*
+#menu:hover .active {
+background-image: none;
+}
+*/
+
+.active {
+background-image: url("images/menu_bg.png");
+background-position: center center;
+background-repeat: repeat-x;
+}
+
+.menu a:link {
+color: #ffffff;
+text-decoration: none;
+}
+
+.menu a:visited {
+color: #ffffff;
+text-decoration: none;
+}
+
+.menu a:hover {
+color: #ffffff;
+text-decoration: none;
+}
+
+.menu a img {
+width: 88px;
+height: 30px;
+}
+
+
+/* --- CONTENT --- */
+#content-container {
+clear: both;
+
+width: 100%;
+height: auto;
+
+background-image: url("images/top-gray-white.png");
+background-position: top center;
+background-repeat: repeat-x;
+
+padding: 0;
+margin: 0 auto;
+
+text-align: center;
+}
+
+	#camera {
+	clear: both;
+	width: 960px;
+  height: 380px;
+
+  width: 100%;
+  height: auto;
+  float: left;
+
+	background-image:url("images/camera.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+
+	padding: 0;
+	margin: 0 auto;
+
+	text-align: center;
+	}
+
+#cam_inln {
+clear: both;
+width: 960px;
+text-align: left;
+
+
+padding: 0;
+margin: 0 auto;
+}
+
+
+#hello {
+height: 35px;
+
+color: #494949;
+font-size: 28px;
+font-family: Arial, serif;
+font-weight: normal;
+
+padding: 30px 0 0 0;
+margin: 0;
+}
+
+#esemenykoveto {
+clear: both;
+width: 960px;
+height: 280px;
+
+background-image: url("images/h_sep.png");
+background-position: top center;
+background-repeat: no-repeat;
+
+margin: 0 auto;
+padding: 55px 0 0 0;
+}
+
+
+#hbox_bal_head {
+float: left;
+width: 600px;
+height: 26px;
+background-image: url("images/hirbox_kek.png");
+background-position: top center;
+background-repeat: repeat-x;
+
+font-size: 20px;
+font-family: Arial, serif;
+color: #fff;
+
+text-align: left;
+
+margin: 0;
+padding: 3px 0 0 10px;
+}
+#hbox_jobb_head {
+float: left;
+width: 340px;
+height: 26px;
+background-color: #141414;
+
+font-size: 20px;
+font-family: Arial, serif;
+color: #fff;
+
+text-align: right;
+
+margin: 0;
+padding: 3px 10px 0 0;
+}
+
+#hbox_bal {
+clear: both;
+float: left;
+width: 610px;
+height: 210px;
+background-color: #141414;
+
+text-align: right;
+margin: 0;
+padding: 0;
+}
+#hbox_jobb {
+float: left;
+width: 330px;
+height: 185px;
+background-color: #fff;
+
+font-family: Verdana, Arial, serif;
+font-size: 14px;
+
+text-align: right;
+margin: 0;
+padding: 15px 10px 10px 10px;
+}
+
+#ugras {
+width: 207px;
+height: 33px;
+
+background-image: url("images/ugras_kek.png");
+background-position: center center;
+background-repeat: no-repeat;
+
+margin: 0 auto;
+padding: 0;
+}
+
+#esgomb {
+float: left;
+width: 290px;
+height: 210px;
+
+margin: 0;
+padding: 0 0 0 10px;
+text-align: left;
+}
+
+.estext {
+float: left;
+width: 290px;
+height: 165px;
+
+color: #fff;
+font-family: Verdana, Arial, serif;
+font-size: 14px;
+
+margin: 0;
+padding: 15px 20px 0 0;
+text-align: left;
+
+overflow: auto;
+}
+
+.estext_date {
+height: 20px;
+width: 280px;
+
+color: #fff;
+font-family: Verdana, Arial, serif;
+font-size: 14px;
+font-style: italic;
+text-align: right;
+
+margin: 0;
+padding: 0 20px 0 0;
+}
+
+.esgomb {
+font-family: Arial, serif;
+font-size: 18px;
+color: #fff;
+cursor: pointer;
+
+width: 246px;
+height: 36px;
+
+background-image: url("images/esem_unsel.png");
+background-position: center center;
+background-repeat: no-repeat;
+
+margin: 0;
+padding: 16px 0 0 15px;
+}
+
+.esgomb_sel {
+background-image: url("images/esem_kek.png");
+}
+
+.esgomb:hover {
+color: #2ca9d8;
+}
+
+#szolgaltatasaink {
+text-align: left;
+clear: both;
+width: 960px;
+
+background-image: url("images/h_sep.png");
+background-position: top center;
+background-repeat: no-repeat;
+
+margin: 0 auto;
+padding: 25px 0 0 0;
+}
+
+#szol_head {
+height: 35px;
+
+color: #494949;
+font-size: 28px;
+font-family: Arial, serif;
+font-weight: normal;
+
+padding: 30px 0 0 0;
+margin: 0;
+}
+
+
+/* --- galéria BOX model --- */
+.gal_box_bal {
+float: left;
+
+
+width: 300px;
+height: auto;
+padding: 0 10px 0 0;
+margin: 15px 0 0 0;
+}
+
+.gal_boxhead {
+clear: both;
+color: #fff;
+width: 260px;
+width: auto;
+height: 32px;
+background-color: #141414;
+
+font-size: 24px;
+font-family: Arial, serif;
+
+padding: 8px 0 0 8px;
+margin: 15px 0 20px 0;
+}
+
+.gal_box_jobb {
+
+width: 285px;
+
+height: 250px;
+
+background-image: url("images/box_left_line.png");
+background-position: top left;
+background-repeat: repeat-y;
+
+padding: 0 0 0 10px;
+margin: 0 0 0 0;
+
+text-align: center;
+}
+
+.gal_box {
+height: auto;
+width: 280px;
+
+font-family: Verdana, Arial, serif;
+font-size: 14px;
+font-style: italic;
+
+background-image: url("images/box_left_line.png");
+background-position: top left;
+background-repeat: repeat-y;
+
+padding: 0 0 0 15px;
+margin: 0;
+}
+
+.gal_sor {
+clear: both;
+}
+
+#nincs_kep {
+  clear: both;
+  height: 200px;
+  margin: auto 0 100px 0;
+}
+
+
+/* --- BOX model --- */
+.box_bal {
+float: left;
+
+width: 660px;
+height: auto;
+padding: 0;
+margin: 0 0 0 auto;
+}
+
+.boxhead {
+clear: both;
+color: #fff;
+width: 262px;
+height: 32px;
+background-color: #141414;
+
+font-size: 24px;
+font-family: Arial, serif;
+
+padding: 8px 0 0 8px;
+margin: 15px 0 20px 0;
+}
+
+.box {
+height: auto;
+width: 645px;
+
+font-family: Verdana, Arial, serif;
+font-size: 14px;
+font-style: italic;
+
+background-image: url("images/box_left_line.png");
+background-position: top left;
+background-repeat: repeat-y;
+
+padding: 0 0 0 15px;
+margin: 0;
+}
+
+.box_jobb {
+float: left;
+
+background-image: url("images/img_line.png");
+background-position: center left;
+background-repeat: no-repeat;
+/*
+width: 265px;
+*/
+height: 280px;
+
+padding: 20px 0 0 55px;
+margin: 0 auto 0 0;
+}
+
+
+/* --- FOOTER --- */
+#foot-spacer {
+clear: both;
+width: 100%;
+height: 30px;
+}
+
+#footer-container {
+clear: both;
+
+width: auto;
+height: auto;
+height: 100%;
+
+padding: 0;
+margin: 0 auto;
+}
+
+	#top-footer-container {
+	clear: both;
+	width: auto;
+	height: 29px;
+	
+	background-image: url("images/hirbox_kek.png");
+	background-position: top center;
+	background-repeat: repeat-x;
+	
+	padding: 0;
+	margin: 0 auto;
+	vertical-align: middle;
+	}
+	
+    .thirtythree {
+    float: left;
+    height: auto;
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    }
+		#copy {
+		float: left;
+		width: 33%;
+		height: 23px;
+		padding: 6px 0 0 0;
+		margin: 0 auto;
+		
+		color:#FFFFFF;
+		font-family: Helvetica, Verdana, Arial, Tahoma;
+		font-size: 13px;
+		text-align: center;
+	  }
+	  
+	  #top {
+	  float: left;
+	  height: 29px;
+	  width: 28%;
+		padding: 0;
+		margin: 0 auto;
+
+		text-align: right;
+	  }
+	  
+	  #top a img {
+	  margin: 0;
+	  padding: 0;
+	  }
+	
+	#bottom-footer-container {
+	clear: both;
+	
+	width: auto;
+	height: 175px;
+	
+	background-image: url("images/footer_bg.png");
+	background-position: top center;
+	/*background-repeat: repeat-x;*/
+	
+	padding: 0;
+	margin: 0 auto;
+	
+	text-align: left;
+	}
+
+#stripes {
+float: left;
+width: 33%;
+height: 175px;
+/*
+background-image: url("images/footer_stripes.png");
+background-position: bottom left;
+background-repeat: no-repeat;
+*/
+}
+#stripes img {
+border: none;
+margin: 0;
+padding: 0;
+}
+
+#foot_menu {
+float: left;
+width: 33%;
+height: 150px;
+
+color: #b8b8b8;
+font-family: Arial, Tahoma;
+font-size: 15px;
+word-spacing: 40px;
+text-align: center;
+/*
+background-image: url("images/footer_ots.png");
+background-position: center center;
+background-repeat: no-repeat;
+*/
+margin: 0;
+padding: 25px 0 0 0;
+}
+
+#ots {
+margin: 60px 0 0 0;
+padding: 0;
+}
+
+#cam {
+float: left;
+width: 25%;
+height: 175px;
+
+background-image: url("images/footer_cam.png");
+background-position: bottom right;
+background-repeat: no-repeat;
+}
+
+
+/* "Vitorlázz némán át a réteken
+    Túl a sóson túl az édesen..." */

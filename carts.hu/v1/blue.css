@@ -1,0 +1,30 @@
+@import url("default.css");
+
+#container {
+background-image: url('images/header_kek.png');
+}
+
+#hbox_bal_head {
+background-image: url('images/hirbox_kek.png');
+}
+
+#ugras {
+background-image: url('images/ugras_kek.png');
+}
+
+.esgomb_sel {
+background-image: url('images/esem_kek.png');
+}
+
+.esgomb:hover {
+color: #2ca9d8;
+}
+
+#top-footer-container {
+background-image: url('images/hirbox_kek.png');
+}
+
+a:hover {
+color: #2ca9d8;
+text-decoration: none;
+}

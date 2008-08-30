@@ -1,0 +1,4 @@
+/* carts lte ie6 */
+body {
+behavior: url("csshover2.htc");
+}
