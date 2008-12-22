@@ -1,0 +1,12 @@
+/*
+#logo, .menu a, #packages div {
+behavior: url("iepngfix.htc");
+}
+
+#menu_nest
+
+*/
+
+#logo, .menu, .package, .package a, input, #plus_clear, #content_rows div, .content_row, .details_button, #foot div, .order_package, .package_price, .helper, td img, #packages img {
+behavior: url("iepngfix.htc");
+}

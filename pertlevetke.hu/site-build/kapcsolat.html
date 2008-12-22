@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
+  <meta name="description" content=""/>
+  <meta name="keywords" content="" />
+  <meta name="copyright" content="www.pertlevetke.hu" />
+  <meta name="revisit-after" content="1 day" />
+  <title>Pertl Evetke</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="ie_lte6_fix.css" />
+
+    <script type="text/javascript" src="iepngfix20a3_tilebg.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript">
+  function link(to)
+  {
+    window.location = to;
+    return true;
+  }
+  
+    var preImg = [];
+
+    preImg[0] = "images/kezdolap.png";
+    preImg[1] = "images/kezdolap_hover.png";
+
+    preImg[2] = "images/galeria.png";
+    preImg[3] = "images/galeria_hover.png";
+
+    preImg[4] = "images/biografia.png";
+    preImg[5] = "images/biografia_hover.png";
+
+    preImg[6] = "images/kapcsolat.png";
+    preImg[7] = "images/kapcsolat_hover.png";
+
+    var objImg = [];
+    for(i in preImg)
+    {
+      objImg[i] = new Image();
+      objImg[i].src = preImg[i];
+    }
+
+  function swap(e, n)
+  {
+    e.src = preImg[n];
+    return true;
+  }
+  </script>
+
+</head>
+<body>
+
+  <div id="container"><!--container-->
+  
+    <div id="head">
+      <div id="menu">
+        <a href="index.html"><img src="images/kezdolap.png" alt="Kezdőlap" onmouseout="swap(this, 0);" onmouseover="swap(this, 1);"/></a>
+        <a href="galeria.html"><img src="images/galeria.png" alt="Galéria" onmouseout="swap(this, 2);" onmouseover="swap(this, 3);"/></a>
+        <a href="biografia.html"><img src="images/biografia.png" alt="Biográfia" onmouseout="swap(this, 4);" onmouseover="swap(this, 5);"/></a>
+        <a href="kapcsolat.html"><img src="images/kapcsolat.png" alt="Kapcsolat" onmouseout="swap(this, 6);" onmouseover="swap(this, 7);"/></a>
+      </div>
+    </div>
+
+
+    <div id="content_frame"><!--content_frame-->
+      
+      <div id="side_panel"><!--side_panel-->
+        <div id="kepek_head">Képek a galériából</div>
+        <img src="galeria/gal_3.jpg"/>
+        <br/>
+        <img src="galeria/gal_7.jpg"/>
+
+        <div id="irany_a_galeria"><a href="galeria.html">Irány a galéria!</a></div>
+      </div><!--/side_panel-->
+      
+      <div id="content"><!--content-->
+
+        <!--kapcsolat-->
+        <div id="contact">Kapcsolat</div>
+        <div id="contact_info">
+Amennyiben műveim felkeltették érdeklődését, kérem lépjen kapcsolatba velem az alábbi csatornák egyikén!
+<br/><br/><br/>
+Cím: 2040 Budaörs, Baross utca 14/1
+<br/><br/>
+Telefon: 06 (23) 415 264
+<br/><br/>
+Mobil: 06 (30) 688 3690
+<br/><br/>
+Email: kapcsolat@pertlevetke.hu
+        </div>
+        <div id="mailer">Üzenetküldő</div>
+        
+        <form id="mailer_form" method="post" action="">
+          Feladó neve:<br/>
+          <input type="text" class="input_text" maxlength="250" name="nev"/>
+          <br/>
+          Email címe:<br/>
+          <input type="text" class="input_text" maxlength="250" name="email"/>
+          <br/>
+          Telefonszáma:<br/>
+          <input type="text" class="input_text" maxlength="250" name="telefon"/>
+          <br/>
+          Üzenet:<br/>
+          <textarea class="input_textarea" name="uzenet"></textarea>
+          <br/>
+          <input type="submit" class="input_submit" value=" "/>
+        </form>
+        <!--/kapcsolat-->
+        
+      </div><!--/content-->
+      
+    </div><!--/content_frame-->
+
+
+    <div id="foot">
+      <div id="ots">
+        <img id="otslogo" src="images/ots_logo.png" alt="www.onethreestudio.com" usemap="#ots"/>
+        <map name="ots">
+          <area shape="polygon" coords="2,23, 11,14, 23,14, 31,21, 67,21, 67,37, 81,37, 81,23, 74,22, 74,14, 103,14, 112,21, 162,21, 167,31, 165,49, 3,49, 2,23" href="http://onethreestudio.com"/>
+        </map>
+      </div>
+      <div id="copy">Minden Jog Fenntartva! - www.pertlevetke.hu</div>
+    </div>
+
+
+  </div><!--/container-->
+
+</body>
+</html>

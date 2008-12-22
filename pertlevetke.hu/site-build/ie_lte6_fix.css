@@ -1,0 +1,16 @@
+
+#menu a img, #kepek_head, .title, #otslogo {
+behavior: url("iepngfix20a3.htc");
+}
+
+/*div {
+behavior: url("csshover2.htc");
+}*/
+
+
+/*
+#container {
+/*bfoot* /
+height: 100%;
+}
+*/

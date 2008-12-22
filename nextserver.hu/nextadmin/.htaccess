@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "nextadmin"
+AuthUserFile "/home/nextserv/.htpasswds/storage/home/nextserv/public_html/nextadmin/passwd"
+require valid-user

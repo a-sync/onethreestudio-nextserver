@@ -1,0 +1,11 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^nextserver.hu$ [OR]
+RewriteCond %{HTTP_HOST} ^www.nextserver.hu$
+RewriteRule ^tesztror "http\:\/\/127\.0\.0\.1\:12001%{REQUEST_URI}" [P,QSA,L]
+
+RewriteCond %{HTTP_HOST} ^nextserver.hu$ [OR]
+RewriteCond %{HTTP_HOST} ^www.nextserver.hu$
+RewriteRule ^domain\/?(.*)$ "http\:\/\/nextserver\.hu\/index\.php\?module\=domain\/$1" [R=301,L]
+

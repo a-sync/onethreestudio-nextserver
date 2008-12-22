@@ -1,0 +1,20 @@
+
+#menu a img, #kepek_head, .title, #otslogo, #mailer, #contact, .input_submit, #bio, #bio_contact {
+behavior: url("iepngfix20a3.htc");
+}
+
+.pic_tags a:hover {
+text-decoration: underline;
+}
+
+/*div {
+behavior: url("csshover2.htc");
+}*/
+
+
+/*
+#container {
+/*bfoot* /
+height: 100%;
+}
+*/

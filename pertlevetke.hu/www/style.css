@@ -1,0 +1,522 @@
+/* pertlevetke css
+
+   www.onethreestudio.com
+*/
+ 
+/* alap */
+html, body {
+width: auto;
+
+margin: 0;
+padding: 0;
+
+color: white;
+font-size: 12px;
+font-family: Georgia, "Times New Roman", serif;
+
+text-align: left;
+margin: 0;
+padding: 0;
+
+background-color: #404751;
+/*bfoot* /
+height: 100%;*/
+}
+
+#container {
+width: auto;
+
+text-align: left;
+padding: 0;
+margin: auto;
+
+/*bfoot* /
+position: relative;
+min-height: 100%;
+padding: 0 0 100px 0;*/
+}
+
+img {
+border: none;
+padding: 0;
+margin: 0;
+}
+
+/* links */
+a:link, a:visited {
+color: white;
+text-decoration: underline;
+}
+a:hover {
+color: #cacaca;
+text-decoration: none;
+}
+
+#catlist a:link, #catlist a:visited {
+color: white;
+text-decoration: none;
+}
+#catlist a:hover {
+text-decoration: underline;
+}
+
+.pic_tags a:link, .pic_tags a:visited {
+color: white;
+text-decoration: none;
+}
+.pic_tags a:hover {
+text-decoration: none;
+border-bottom: 1px dashed #dadada;
+}
+
+#bio span a:link, #bio span a:visited {
+font-size: 12px;
+color: gray;
+text-decoration: none;
+}
+#bio span a:hover {
+font-size: 12px;
+color: darkgray;
+text-decoration: none;
+}
+
+/* fej */
+#head {
+width: 100%;
+height: 26px;
+
+/*border-bottom: 1px solid #c7d1e0;*/
+
+background-image: url("images/head_bg.jpg");
+background-position: top left;
+background-repeat: no-repeat;
+background-color: white;
+
+margin: 0;
+padding: 54px 0 0 0;
+}
+
+#menu {
+width: auto;
+height: 26px;
+
+margin: 0 0 0 350px;
+padding: 0;
+}
+
+#menu a img {
+width: 136px;
+height: 26px;
+
+margin: 0;
+padding: 0;
+}
+
+/* tartalom keret */
+#content_frame {
+clear: both;
+float: left;
+width: auto;
+
+background-image: url("images/content_bg.jpg");
+background-position: top left;
+background-repeat: no-repeat;
+background-color: #404751;
+
+margin: 0;
+padding: 0;
+}
+
+/* oldal panel */
+#side_panel {
+float: left;
+width: 250px;
+height: auto;
+
+text-align: center;
+
+margin: 0;
+padding: 0;
+}
+
+#kepek_head {
+clear: both;
+width: 220px;
+height: 38px;
+
+font-size: 24px;
+text-align: center;
+
+background-image: url("images/side_white_line.png");
+background-position: bottom center;
+background-repeat: no-repeat;
+
+margin: 190px auto 20px auto;
+padding: 0;
+}
+
+#side_panel img {
+margin: 0 0 20px 0;
+}
+
+#irany_a_galeria {
+font-size: 12px;
+font-family: Arial, Verdana, serif;
+text-align: center;
+
+margin: 0;
+padding: 0;
+}
+
+/* tartalom */
+#content {
+float: left;
+width: auto;
+width: 650px;/*dbg*/
+height: auto;
+
+text-align: left;
+
+margin: 0;
+padding: 35px 0 0 10px;
+}
+
+#hello {
+clear: both;
+font-size: 24px;
+letter-spacing: 3px;
+
+margin: 0 0 50px 0;
+padding: 0;
+}
+
+#i_am {
+font-size: 14px;
+letter-spacing: 1px;
+
+margin: 0;
+padding: 0;
+}
+
+/* hir */
+.title {
+clear: both;
+width: 650px;
+height: 40px;
+
+background-image: url("images/white_line.png");
+background-position: bottom center;
+background-repeat: no-repeat;
+}
+
+.title_text {
+float: left;
+width: 550px;
+height: auto;
+
+font-size: 24px;
+letter-spacing: 1px;
+
+margin: 0;
+padding: 0;
+}
+
+.title_time {
+float: left;
+width: 100px;
+height: auto;
+
+font-size: 12px;
+letter-spacing: 1px;
+text-align: center;
+
+margin: 10px 0 0 0;
+padding: 0;
+}
+
+.text {
+clear: both;
+width: 640px;
+height: auto;
+
+font-size: 13px;
+line-height: 18px;
+letter-spacing: normal;
+
+margin: 0 0 40px 0;
+padding: 10px 5px 10px 5px;
+}
+
+/* kapcsolat */
+#contact {
+width: 650px;
+height: auto;
+
+font-size: 24px;
+letter-spacing: 2px;
+background-image: url("images/white_line.png");
+background-position: bottom center;
+background-repeat: no-repeat;
+
+margin: 0 0 20px 0;
+padding: 0 0 30px 0;
+}
+
+#contact_info {
+width: 630px;
+height: auto;
+
+letter-spacing: 1px;
+line-height: normal;
+
+margin: 0;
+padding: 10px;
+}
+
+#mailer {
+width: 650px;
+height: auto;
+
+font-size: 24px;
+letter-spacing: 2px;
+background-image: url("images/white_line.png");
+background-position: top center;
+background-repeat: no-repeat;
+
+margin: 20px 0 0 0;
+padding: 30px 0 0 0;
+}
+
+#mailer_form {
+width: 630px;
+height: auto;
+
+letter-spacing: 1px;
+
+margin: 20px 0 40px 0;
+padding: 10px;
+}
+
+.input_text {
+width: 242px;
+height: 26px;
+
+font-family: Georgia, "Times New Roman", serif;
+font-size: 18px;
+font-weight: normal;
+line-height: normal;
+letter-spacing: normal;
+
+border: 1px solid #404751;
+background-image: url("images/input_text_bg.png");
+background-position: bottom center;
+background-repeat: repeat-x;
+
+margin: 0 0 8px 0;
+padding: 6px 3px 0 5px;
+}
+
+.input_textarea {
+width: 442px;
+height: 170px;
+
+font-family: Georgia, "Times New Roman", serif;
+font-size: 18px;
+font-weight: normal;
+line-height: 23px;
+letter-spacing: normal;
+
+border: 1px solid #404751;
+background-image: url("images/input_textarea_bg.png");
+background-position: bottom center;
+background-repeat: repeat-x;
+
+margin: 0 0 10px 0;
+padding: 6px 3px 4px 5px;
+}
+
+.input_submit {
+width: 70px;
+height: 20px;
+
+border: 1px solid #404751;
+background-image: url("images/input_submit_bg.png");
+background-position: center center;
+background-repeat: no-repeat;
+background-color: transparent;
+cursor: pointer;
+
+margin: 0 0 10px 380px;
+padding: 0;
+}
+
+.input_submit:hover {
+background-image: url("images/input_submit_bg_hover.png");
+}
+
+/* biográfia */
+#bio {
+width: 650px;
+height: auto;
+
+font-size: 24px;
+letter-spacing: 2px;
+
+background-image: url("images/white_line.png");
+background-position: bottom center;
+background-repeat: no-repeat;
+
+margin: 0 0 20px 0;
+padding: 0 0 30px 0;
+}
+
+#bio_contact {
+width: 610px;
+height: auto;
+
+letter-spacing: 1px;
+line-height: 18px;
+font-weight: bold;
+
+background-image: url("images/white_line.png");
+background-position: bottom center;
+background-repeat: no-repeat;
+
+margin: 0;
+padding: 10px 20px 30px 20px;
+}
+
+#bio_info {
+width: 610px;
+height: auto;
+
+letter-spacing: normal;
+line-height: normal;
+
+margin: 0;
+padding: 20px;
+}
+
+#bio_side {
+clear: both;
+width: 220px;
+height: auto;
+
+font-size: 24px;
+text-align: center;
+
+margin: 220px auto 0 auto;
+padding: 0;
+}
+
+/* galéria */
+#catlist {
+font-size: 18px;
+text-align: left;
+padding: 0 0 0 25px;
+}
+
+.gal_row_frame {
+clear: both;
+
+margin: 0;
+padding: 0;
+}
+
+.gal_row {
+float: left;
+
+text-align: center;
+
+margin: 0;
+padding: 0;
+}
+
+.pic {
+float: left;
+width: 215px;
+
+text-align: center;
+
+margin: 0;
+padding: 40px 0 0 0;
+}
+
+.pic img {
+border: none;
+
+margin: 0;
+padding: 0;
+}
+
+.pic_title {
+font-size: 16px;
+font-weight: bold;
+
+margin: 0;
+padding: 0 0 3px 0;
+}
+
+.pic_tags {
+font-style: italic;
+
+margin: 0;
+padding: 3px 0 0 0;
+}
+
+#nincs_kep {
+font-size: 16px;
+letter-spacing: 1px;
+
+text-align: center;
+
+margin: 0;
+padding: 0;
+}
+
+/* láb */
+#foot {
+clear: both;
+
+width: 100%;
+height: 130px;
+
+margin: 0;
+padding: 0;
+
+/*bfooter* /
+position: absolute;
+left: 0;
+bottom: 0;*/
+}
+
+#ots {
+float: left;
+width: 235px;
+
+text-align: left;
+
+margin: 0;
+padding: 70px 0 0 15px;
+}
+
+#otslogo {
+width: 169px;
+height: 50px;
+
+margin: 0;
+padding: 0;
+}
+
+#copy {
+float: left;
+width: 650px;
+height: 30px;
+
+font-family: Arial, Verdana, serif;
+text-align: center;
+
+margin: 0;
+padding: 100px 0 0 10px;
+}
+
