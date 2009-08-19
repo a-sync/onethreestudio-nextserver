@@ -1,0 +1,10 @@
+SUBJECT>>{$sitename}: E-mail cím megerõsítése<<
+Kedves {$loginName},
+
+Az alábbi linkre való kattintással, vagy annak a böngészõ címsorába való illesztésével tudja aktiválni a hozzáférését a fórumhoz:
+
+{$main_url}/{$indexphp}action=confirmpasswd&confirmCode={$confirmCode}
+
+Üdvözlettel,
+Fórum Adminisztrátor
+{$main_url}

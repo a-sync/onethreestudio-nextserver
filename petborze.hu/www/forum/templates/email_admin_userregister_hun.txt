@@ -1,0 +1,19 @@
+SUBJECT>>E-mail figyelmeztetés {$sitename}-rõl: Új felhasználó regisztrálása<<
+Üdvözlöm!
+
+A következõ felhasználó regisztrálta magát a "{$sitename}" címû fórumba:
+
+ID: {$insres}
+
+Login: {$username}
+Email: {$user_email}
+ICQ: {$user_icq}
+Weboldal: {$user_website}
+Végzettség: {$user_occ}
+Régió: {$user_from}
+Érdeklõdési terület: {$user_interest}
+
+Üdvözlettel,
+	miniBB
+
+U.I. Nem szeretne több ilyen levelet kapni? Állítsa be az "emailadmin" paramétert a setup_options.php-ban "0"-ra.

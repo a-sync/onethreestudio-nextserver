@@ -1,0 +1,15 @@
+SUBJECT>>{$sitename}: Az Ön felhasználói neve és jelszava<<
+Üdvözlöm!
+
+Köszönöm, hogy regisztrálta magát fórumunkban!
+
+Felhasználói neve: {$username}
+Jelszava: {$passwd}
+
+Kérem tartsa ezt az információt "hideg, száraz helyen", bárkitõl gondosan elzárva, hogy ha problémája lenne a fórummal kapcsolatban, fel tudja majd használni.
+
+Ha elfelejti a jelszavát, klikkeljen a jelszó linkre a belépésnél, a felhasználói név mezõje mellett.
+
+Üdvözlettel,
+A fórum adminisztrátora
+{$main_url}

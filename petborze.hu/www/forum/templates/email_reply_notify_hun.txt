@@ -1,0 +1,18 @@
+SUBJECT>>Email figyelmeztetés {$sitename}-ról: Új hozzászólás<<
+Üdvözlöm!
+
+Azért kapta ezt a levelet, mert kérte, hogy jelezzem, ha valaki a "{$forum_title}" fórum "{$topicTitle}" témájába ír, most {$user_usr} tette ezt meg.
+
+Hozzászólása így kezdõdik:
+--
+
+{$postTextSmall}
+
+--
+
+Nézze meg a teljes témát a {$sitename} fórumon:
+
+{$main_url}/{$indexphp}action=vthread&forum={$forum}&topic={$topic}&goPost={$topic_last_post_id}&user=[USER_ID]
+
+Üdvözlettel,
+	miniBB
