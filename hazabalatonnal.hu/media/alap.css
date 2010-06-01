@@ -1,0 +1,230 @@
+/*
+hazabalatonnal.hu
+
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+border-radius:6px;
+
+*/
+
+html, body
+{
+background-color: #c54b1a;
+background-image: url("bg1.png");
+background-position: center center;
+background-repeat: repeat;
+color: black;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+a:link, a:visited
+{
+color: #c54b1a;
+text-decoration: none;
+}
+a:hover
+{
+text-decoration: underline;
+}
+
+#fejlec, #menu, #tartalom, #lablec
+{
+background-color: #ffeeaa;
+background-image: url("bg2.png");
+background-position: center center;
+background-repeat: repeat;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px;
+}
+
+.clear
+{
+clear: both;
+line-height: 0;
+}
+
+#kontener
+{
+width: 950px;
+text-align: left;
+padding: 10px 0 10px 0;
+margin: 0 auto;
+}
+
+#fejlec
+{
+height: 90px;
+}
+
+#fejlec_belso
+{
+height: 70px;
+background-image: url("logo.png");
+background-position: center right;
+background-repeat: no-repeat;
+padding: 10px;
+}
+
+#fejlec h1
+{
+margin: 0;
+font-size: 40px;
+font-weight: bold;
+padding: 12px 0 0 0;
+}
+
+#logo
+{
+text-decoration: none;
+}
+
+#test
+{
+padding: 15px 0 10px 0;
+}
+
+#lablec
+{
+height: 18px;
+text-align: center;
+color: #b24429;
+/*clear:both;*/
+padding: 2px 0 0 0;
+}
+
+#menu
+{
+width: 180px;
+
+float: left;
+margin: 0 20px 0 0;
+padding: 10px;
+}
+
+#menu h2
+{
+color: #b24429;
+margin: 0;
+font-size: 28px;
+font-weight: bold;
+}
+
+#menu ul
+{
+margin: 10px 0 10px 0;
+padding: 0 0 0 12px;
+list-style-type: none;
+font-size: 16px;
+}
+
+#menu ul li
+{
+padding: 1px 0 2px 0;
+}
+
+#tartalom
+{
+width: 710px;
+padding: 10px 10px 0 10px;
+float: left;
+}
+
+.hirdetes
+{
+height: 100px;
+background-color: #fefeef;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;
+overflow: hidden;
+padding: 10px;
+margin: 0 0 15px 0;
+}
+
+.kep
+{
+width: 150px;
+height: 100px;
+float: left;
+}
+
+.infok
+{
+float: left;
+padding: 0 0 0 10px;
+}
+
+.cim
+{
+font-size: 16px;
+font-weight: bold;
+margin: 0 0 2px 0;
+clear: both;
+}
+
+.adatok
+{
+width: 200px;
+float: left;
+padding: 0 10px 0 0;
+}
+
+.hely
+{
+margin: 0 0 2px 0;
+}
+
+.regio
+{
+color: #404040;
+}
+
+.telepules
+{
+
+}
+
+.kategoria
+{
+
+}
+
+.alapterulet
+{
+font-weight: bold;
+}
+
+.szobak
+{
+
+}
+
+.ar
+{
+margin: 2px 0 0 0;
+font-weight: bold;
+font-size: 16px;
+}
+
+.leiras
+{
+width: 320px;
+float: left;
+text-align: right;
+}
+
+.ido
+{
+font-weight: normal;
+font-size: 11px;
+color: #404040;
+float: right;
+text-align: right;
+}
+
